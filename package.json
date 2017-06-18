@@ -1,0 +1,19 @@
+{
+  "name": "asde",
+  "version": "1.0.0",
+  "description": "asynchronous destructuring",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x00A/asde.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x00A/asde/issues"
+  },
+  "homepage": "https://github.com/0x00A/asde#readme"
+}
