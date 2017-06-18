@@ -14,7 +14,18 @@ const asde = require('asde')
 const fs = require('fs')
 
 const stat = asde(fs.stat)
-const [errStat, value] = stat('./file')
+
+async function main () {
+  const [errStat, value] = await stat('./file')
+
+  if (errStat) {
+    return console.error(errStat)
+  }
+
+  console.log(value)
+}
+
+main()
 ```
 
 # INSTALL
