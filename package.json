@@ -1,6 +1,6 @@
 {
   "name": "asde",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "asynchronous destructuring",
   "main": "index.js",
   "scripts": {
