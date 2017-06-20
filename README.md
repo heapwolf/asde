@@ -2,7 +2,7 @@
 A low level module for destructuring asynchronous values.
 
 # MOTIVATION
-Use `async/await` on regular callback APIs without touching any promises.
+Use `async/await` on regular callback APIs, return `[error||null, ...values]`.
 
 # DESCRIPTION
 `asde` is a low level module that wraps a node-style function call in a promise
