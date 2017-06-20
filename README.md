@@ -58,7 +58,7 @@ that can handle it. If one isn't found, Node.js (and some browsers) provide a
 catch-all event called `unhandledRejection` (similar to `uncaughtException`).
 
 # USAGE
-`asde` will return a function that takes the same parameters as the original
+`asde` will return a function that takes the same arguments as the original
 function, but does not require a `callback`. The new function should be called
 with the `await` keyword from within a `async` function.
 
