@@ -9,7 +9,7 @@ Use `async/await` on regular callback APIs, return `[error||null, ...values]`.
 so that it can be used with `async/await`. The promise always resolves with an
 array of values (error first). The values can then be identified using
 a `destructuring assignment`, providing both the error and values in the same
-channel without the need for a try/catch block.
+channel without expectation of a try/catch block.
 
 # USAGE
 Here are some notes on how async functions work with the await keyword.
