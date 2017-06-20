@@ -55,7 +55,7 @@ main()
 
 If you don't catch, the `rejection` will "bubble up" until it finds a promise
 that can handle it. If one isn't found, Node.js (and some browsers) provide a
-catch-all event called `unhandledRejection` (similar too `uncaughtException`).
+catch-all event called `unhandledRejection` (similar to `uncaughtException`).
 
 # USAGE
 `asde` will return a function that takes the same parameters as the original
