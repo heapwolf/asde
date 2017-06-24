@@ -14,12 +14,12 @@ const fn = asde(foo)
 
 async function main () {
   {
-    const [err, n] = await fn(50)
+    const [ n, err] = await fn(50)
     assert(err, 'should return an error')
   }
 
   {
-    const [err, n] = await fn(150)
+    const [n, err] = await fn(150)
     assert(!err, 'no error when callback provides null as first arg')
     assert(n === 150, 'value returned and destructured')
   }
